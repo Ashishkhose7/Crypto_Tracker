@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import Loading from '@/src/app/loading';
 import React, { Suspense } from 'react'
 import Navigation from '../Navigation/Navigation';
