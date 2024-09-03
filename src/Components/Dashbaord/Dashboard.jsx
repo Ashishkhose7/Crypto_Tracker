@@ -12,7 +12,7 @@ const Dashboard = ({globaldata, coinsdata, newsdata, imgurls}) => {
     <div className="col-md-12 p-3">
     <div className="row global-stats">
       {
-        globaldata?.totalMarkets ? <Title level={4} className="heading"><span className="dash-heading">Global Crypto Stats</span></Title> : 'Global Crypto Stats'
+        globaldata?.totalMarkets ? <Title level={3} className="heading"><span className="dash-heading">Global Crypto Stats</span></Title> : 'Global Crypto Stats'
       }
     
       {
