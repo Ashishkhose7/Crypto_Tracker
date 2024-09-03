@@ -47,7 +47,7 @@ const Navigation = () => {
                   </Link>
                 </div>
                 <div className="col-5 m-0 p-0 mb-4">
-                  <Link href={"cryptocurrencies"} className={'linknav'}>
+                  <Link href={"/cryptocurrencies"} className={'linknav'}>
                       <div className={tab==='/cryptocurrencies'? 'manu-tab': 'menu-btn'}>
                         <i aria-hidden="true" className="fa-solid fa-baht-sign"></i>
                       </div>
@@ -55,7 +55,7 @@ const Navigation = () => {
                   </Link>
                 </div>
                 <div className="col-5 m-0 p-0 mb-4">
-                  <Link href={"exchanges"} className={'linknav'}>
+                  <Link href={"/exchanges"} className={'linknav'}>
                       <div className={tab==='/exchanges'? 'manu-tab': 'menu-btn'}>
                       <i aria-hidden="true" className="fa-solid fa-building"></i>
                       </div>
@@ -63,7 +63,7 @@ const Navigation = () => {
                   </Link>
                 </div>
                 <div className="col-5 m-0 p-0 mb-4">
-                  <Link href={"news"} className={'linknav'}>
+                  <Link href={"/news"} className={'linknav'}>
                       <div className={tab==='/news'? 'manu-tab': 'menu-btn'}>
                       <i aria-hidden="true" className="fa-solid fa-lightbulb"></i>
                       </div>
