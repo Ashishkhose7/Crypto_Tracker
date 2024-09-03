@@ -5,9 +5,9 @@ const Exchanges = async () => {
   const {exchangestats} = await exchangesData();
   return (
     <>
-      <head>
+      {/* <head>
         <title>KRYPTo - Exchanges Details</title>
-      </head>
+      </head> */}
     <Exchangescomponent exchangesdata={exchangestats}/>
     </>
   )

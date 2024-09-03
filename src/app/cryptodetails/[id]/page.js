@@ -5,9 +5,9 @@ const CryptoDetails = ({params}) => {
     
   return (
     <>
-      <head>
+      {/* <head>
         <title>KRYPTo - Coin chart</title>
-      </head>
+      </head> */}
     <Cryptodetails params={params}/>
     </>
   )

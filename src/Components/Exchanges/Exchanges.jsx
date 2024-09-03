@@ -22,7 +22,7 @@ const Exchanges = ({ exchangesdata }) => {
   return (
     <div className="col-md-12 p-3 exchanges">
       <table className="table">
-        {/* <thead className="table-light"> */}
+        <thead className="table-light">
           <tr>
             <th
               scope="col"
@@ -47,7 +47,7 @@ const Exchanges = ({ exchangesdata }) => {
               Web
             </th>
           </tr>
-        {/* </thead> */}
+        </thead>
         <tbody>
           {exchangesdata ? (
             exchangesdata.map((i, index) => {

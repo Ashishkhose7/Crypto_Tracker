@@ -15,9 +15,9 @@ export default async function Home() {
 
   return (
     <>
-      <head>
+      {/* <head>
         <title>KRYPTo - Dashboard</title>
-      </head>
+      </head> */}
       <main>
         <Dashboard globaldata={globalstats?.data} coinsdata={coinsstats?.data?.coins.slice(0, 10)} newsdata={newsstats} imgurls={imgdata}/>
       </main>

@@ -7,9 +7,9 @@ const Cryptocurrency = async() => {
   
   return (
     <>
-      <head>
+      {/* <head>
         <title>KRYPTo - Currencies</title>
-      </head>
+      </head> */}
     <CryptocurrencyComponent coinsdata={coinsstats?.data?.coins}/>
     </>
   )

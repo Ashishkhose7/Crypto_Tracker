@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
           
         ></script>
       </head>
-      <body>
+      <body suppressHydrationWarning={true}>
         <CommonLayout>{children}</CommonLayout>
       </body>
     </html>

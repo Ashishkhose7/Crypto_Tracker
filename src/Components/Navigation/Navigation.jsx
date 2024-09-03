@@ -41,7 +41,7 @@ const Navigation = () => {
                 <div className="col-5 m-0 p-0 mb-4 text-center">
                   <Link href={"/"} className={'linknav'} > 
                       <div className={tab==='/'? 'manu-tab': 'menu-btn'}>
-                        <i aria-hidden className="fa-solid fa-bars"></i>
+                        <i aria-hidden="true" className="fa-solid fa-bars"></i>
                       </div>
                       <span className={tab==='/'? 'text-dark': ''}>Dashboard</span>
                   </Link>
@@ -49,7 +49,7 @@ const Navigation = () => {
                 <div className="col-5 m-0 p-0 mb-4">
                   <Link href={"cryptocurrencies"} className={'linknav'}>
                       <div className={tab==='/cryptocurrencies'? 'manu-tab': 'menu-btn'}>
-                        <i aria-hidden className="fa-solid fa-baht-sign"></i>
+                        <i aria-hidden="true" className="fa-solid fa-baht-sign"></i>
                       </div>
                       <span className={tab==='/cryptocurrencies'? 'text-dark': ''}>Currency</span>
                   </Link>
@@ -57,7 +57,7 @@ const Navigation = () => {
                 <div className="col-5 m-0 p-0 mb-4">
                   <Link href={"exchanges"} className={'linknav'}>
                       <div className={tab==='/exchanges'? 'manu-tab': 'menu-btn'}>
-                      <i aria-hidden className="fa-solid fa-building"></i>
+                      <i aria-hidden="true" className="fa-solid fa-building"></i>
                       </div>
                       <span className={tab==='/exchanges'? 'text-dark': ''}>Exchanges</span>
                   </Link>
@@ -65,7 +65,7 @@ const Navigation = () => {
                 <div className="col-5 m-0 p-0 mb-4">
                   <Link href={"news"} className={'linknav'}>
                       <div className={tab==='/news'? 'manu-tab': 'menu-btn'}>
-                      <i aria-hidden className="fa-solid fa-lightbulb"></i>
+                      <i aria-hidden="true" className="fa-solid fa-lightbulb"></i>
                       </div>
                       <span className={tab==='/news'? 'text-dark': ''}>News</span>
                   </Link>

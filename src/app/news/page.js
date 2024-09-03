@@ -4,9 +4,9 @@ import NewsComponent from '../../Components/News/News';
 const News = () => {
   return (
     <>
-      <head>
+      {/* <head>
         <title>KRYPTo - News</title>
-      </head>
+      </head> */}
       <NewsComponent/>
     </>
   )
