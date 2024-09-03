@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+'use client'
 import React from "react"
 import { Row, Col, Skeleton } from 'antd';
 import Link from "next/link";

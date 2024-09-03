@@ -1,4 +1,4 @@
-/* eslint-disable */ 
+/* eslint-disable @next/next/no-img-element */
 import Loading from '@/src/app/loading';
 import React, { Suspense } from 'react'
 import Navigation from '../Navigation/Navigation';
