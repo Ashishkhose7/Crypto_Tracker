@@ -26,21 +26,31 @@ const Pricechart = ({ coinHistory, currentPrice, coinName, priceChange }) => {
             fill: false,
             backgroundColor: 'mediumseagreen',
             borderColor: 'lime',
-            border: '1px solid'
+            border: '1px solid',
+            tension: 0.5,
+            pointRadius: 1.5,
           },
         ],
       };
     
       const options = {
-        // scales: {
-        //   yAxes: [
-        //     {
-        //       ticks: {
-        //         beginAtZero: true,
-        //       },
-        //     },
-        //   ],
-        // },
+        responsive: true,
+        scales: {
+            y: {
+                ticks: {
+                font: {
+                    size: 10
+                }
+            }
+            },
+            x: {
+              ticks: {
+              font: {
+                  size: 10
+              }
+                }
+            }
+        }
       };
 
   return (
