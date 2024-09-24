@@ -96,7 +96,8 @@ a {
 }
 .dash-heading{
   font-weight: normal;
-  color: #2c2e81;
+  color: #1677ff;
+  /*  */
 }
 .home-heading-container{
     display: flex;
@@ -129,8 +130,35 @@ a {
   box-shadow: 0 0 20px rgb(244 237 237);
   border-radius: 8px;
   padding: 10px 18px;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
+.totalmarket{
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+  color: white;
+}
+.totalvolume{
+  color: white;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+.totalmarketcap{
+  color: white;
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+.totalexchanges{
+  color: white;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+.totalcrypto{
+  color: white;
+  background-color: #FFB700;
+  background-image: linear-gradient(315deg, #FFB700 0%, #FF9F1C 45%, #FF6347 100%);
+}
+
 .topcryptocard{
   transition: all .3s;
 }
@@ -390,6 +418,9 @@ a {
 .current-price{
   margin-top: 0px !important;
   font-weight: 900 !important;
+}
+.ant-statistic-title{
+  color: white;
 }
 /* Footer */
 .footer {

@@ -19,31 +19,30 @@ const Dashboard = ({globaldata, coinsdata, newsdata, imgurls}) => {
         globaldata?.totalMarkets ?
             <Row gutter={[30, 30]} className="my-3">
               <Col span={6}>
-                <div className="outline-div"><Statistic title="Total Cryptocurrencies" value={globaldata?.totalCoins || 0} valueStyle={{color: 'darkslateblue'}}/></div>
+                <div className="outline-div totalcrypto"><Statistic title={<span className='text-white'>Total Cryptocurrencies</span>}  value={globaldata?.totalCoins || 0} valueStyle={{color: 'white'}}/></div>
               </Col>
               <Col span={6}>
-                <div className="outline-div">
-                  <Statistic title="Total Exchanges" value={globaldata?.totalExchanges || 0} valueStyle={{color: 'darkslateblue'}}/>
+                <div className="outline-div totalexchanges">
+                  <Statistic title={<span className='text-white'>Total Exchanges</span>}  value={globaldata?.totalExchanges || 0} valueStyle={{color: 'white'}}/>
                 </div>
               
               </Col>
               <Col span={6}>
-                <div className="outline-div">
-                  <Statistic title="Total Market Cap:" value={`$${millify(globaldata?.totalMarketCap)}`} valueStyle={{color: 'darkslateblue'}}/>
+                <div className="outline-div totalmarketcap">
+                  <Statistic title={<span className='text-white'>Total Market Cap</span>} value={`$${millify(globaldata?.totalMarketCap)}`} valueStyle={{color: 'white'}}/>
                 </div>
               
               </Col>
               <Col span={6}>
-                <div className="outline-div">
-                  <Statistic title="Total 24h Volume" value={`$${millify(globaldata?.total24hVolume)}`} valueStyle={{color: 'darkslateblue'}}/>
+                <div className="outline-div totalvolume">
+                  <Statistic title={<span className='text-white'>Total 24h Volume</span>} value={`$${millify(globaldata?.total24hVolume)}`} valueStyle={{color: 'white'}}/>
                 </div>
               
               </Col>
               <Col span={6}>
-                <div className="outline-div">
-                  <Statistic title="Total Markets" value={`${millify(globaldata?.totalMarkets)}`} valueStyle={{color: 'darkslateblue'}}/>
+                <div className="outline-div totalmarket">
+                  <Statistic title={<span className='text-white'>Total Markets</span>} value={`${millify(globaldata?.totalMarkets)}`} valueStyle={{color: 'white'}}/>
                 </div>
-              
               </Col>
             </Row>
          :  <Skeleton active />
