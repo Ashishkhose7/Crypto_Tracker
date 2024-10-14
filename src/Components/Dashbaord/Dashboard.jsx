@@ -53,7 +53,7 @@ const Dashboard = ({globaldata, coinsdata, newsdata, imgurls}) => {
           {
             coinsdata ? <div className="home-heading-container">
             <Title level={3} className="heading"><span className="dash-heading">Top 10 Cryptos In The World</span></Title>
-            <Title level={5} className="show-more mr-5"><Link href="/cryptocurrencies">Show more</Link></Title>
+            <Title level={5} className="show-more"><Link href="/cryptocurrencies">Show more</Link></Title>
 
          </div> : 'Top 10 Cryptos In The World'
           }
@@ -63,7 +63,7 @@ const Dashboard = ({globaldata, coinsdata, newsdata, imgurls}) => {
                 if(index === 10) return
                   return(
                    <Col
-                     md={6}
+                   span={6}
                      className="crypto-card"
                      key={coin.uuid}>
                       <Link href={`/cryptodetails/${coin.uuid}`} className='text-decoration-none'>

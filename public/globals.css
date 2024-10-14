@@ -104,10 +104,11 @@ a {
     justify-content: space-between;
     align-items: center;
     margin-top: 40px;
-    width: 97%;
+    /* width: 97%; */
 }
 .show-more{
     margin-top: 0px !important;
+    margin-right: 45px;
     font-weight: normal;
 }
 .maincard{
